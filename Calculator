@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+     int num1,num2;
+    int add;
+    int sub;
+    int prod;
+     float div;
+    cout<<"Enter the first number :"<<endl;
+    cin>>num1;
+    cout<<"Enter the second number :"<<endl;
+    cin>>num2;
+    add=num1+num2;
+   cout << "The Sum of two number is="<<add<<endl;
+   sub=num1-num2;
+    cout<<"The Subtraction of two number is ="<<sub<<endl;
+    prod=num1*num2;
+   cout<<"The product of two number is="<<prod<<endl;
+   div=num1/num2;
+   cout<<"The division of two number is="<<div<<endl;
+    return 0;
+}
